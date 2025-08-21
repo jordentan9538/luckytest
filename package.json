@@ -1,6 +1,8 @@
 {
   "name": "luckywheel-backend",
   "version": "1.0.0",
+  "description": "Lucky Wheel backend API with spin, score submission, and leaderboard",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
@@ -8,6 +10,15 @@
   "engines": {
     "node": ">=18"
   },
+  "keywords": [
+    "express",
+    "api",
+    "luckywheel",
+    "backend",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
     "cors": "^2.8.5",
